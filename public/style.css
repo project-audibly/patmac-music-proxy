@@ -1,0 +1,24 @@
+body {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-template-rows: auto auto;
+  grid-template-areas: "top-player top-plater"
+                       "comments side-bar";
+}
+
+#Top-Player {
+  grid-area: top-player;
+}
+
+#SideComponent {
+  grid-area: side-bar;
+}
+
+#Comments {
+  grid-area: comments;
+}
+
+#Bottom-Player {
+  bottom: 0px;
+  position: fixed;
+}
