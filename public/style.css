@@ -18,7 +18,7 @@ body {
   grid-area: comments;
 }
 
-#BottomPlayer {
+#BottomgPlayer {
   bottom: 0px;
   position: fixed;
 }
