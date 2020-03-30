@@ -6,19 +6,19 @@ body {
                        "comments side-bar";
 }
 
-#Top-Player {
+#TopPlayer {
   grid-area: top-player;
 }
 
-#SideComponent {
+#sidebar {
   grid-area: side-bar;
 }
 
-#Comments {
+#app {
   grid-area: comments;
 }
 
-#Bottom-Player {
+#BottomgPlayer {
   bottom: 0px;
   position: fixed;
 }
